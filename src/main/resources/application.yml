@@ -1,0 +1,6 @@
+eureka:
+  client:
+    registerWithEureka: false # 在Spring Boot Eureka 应用程序启动时不要通过Eureka 服务注册，因为它本身就是Eureka 服务
+    fetchRegistry: false # Eureka 服务启动时，它不会尝试在本地缓存注册表信息
+  server:
+    waitTimeInMsWhenSyncEmpty: 5 # 在服务器接收请求之前等待的初始时间

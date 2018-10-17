@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: project-registry-center
+server:
+  port: 8761
